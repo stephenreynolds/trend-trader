@@ -5,9 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
-    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx",
-    "e2e": "ng e2e"
+    "test": "",
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "private": true,
   "dependencies": {
