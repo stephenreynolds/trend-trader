@@ -1,0 +1,11 @@
+<!-- Login and register -->
+<div>
+  <ul class="navbar nav p-0">
+    <li class="nav-item" [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
+      <a class="nav-link text-dark" [routerLink]="['/login']" title="Sign in">Sign in</a>
+    </li>
+    <li class="nav-item" [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
+      <a class="nav-link btn btn-outline-secondary p-1" [routerLink]="['/register']" title="Sign up">Sign up</a>
+    </li>
+  </ul>
+</div>
